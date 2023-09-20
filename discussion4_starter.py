@@ -28,10 +28,10 @@ class Rectangle():
     #       False otherwise
 
     # YOUR CODE HERE
-    def verify_input(self): 
-        return False 
+    def verify_input(self):  
         if self.width > 0 and self.height > 0: 
             return True 
+        return False
 
 
     # Create the "area" method
@@ -40,6 +40,13 @@ class Rectangle():
     # Otherwise, it returns the area of the rectangle.
 
     # YOUR CODE HERE
+    def area(self):
+        if verify_input(self) == False: 
+            return False 
+        elif 
+            return self.width * self.height
+
+
 
 
 
